@@ -6,6 +6,7 @@ on:
       example:
         type: boolean
         description: Does this repo has an "example/" to run?
+        default: false
 
 jobs:
   test:
