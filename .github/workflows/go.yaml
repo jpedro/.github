@@ -39,4 +39,4 @@ jobs:
 
     - name: Show local files
       run: |
-        ls -lsrF
+        ls -lsRF
