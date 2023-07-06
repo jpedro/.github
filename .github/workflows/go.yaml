@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: Go test
+    name: Go
     runs-on: ubuntu-latest
 
     steps:
