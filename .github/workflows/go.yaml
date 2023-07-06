@@ -27,7 +27,7 @@ jobs:
         # go test -v -covermode=count -coverprofile=coverage.out
 
     - name: Go example
-      if: inputs.example == 'true'
+      if: inputs.example
       run: |
         cd example
         go run .
