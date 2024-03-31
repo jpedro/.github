@@ -27,15 +27,18 @@ jobs:
 
     - name: Show env
       run: |
+        echo
         echo "--- SECRETS ---"
         echo "DB_TEST_POSTGRES:   ${{ secrets.DB_TEST_POSTGRES }}"
         echo "DB_TEST_SQLITE3:    ${{ secrets.DB_TEST_SQLITE3 }}"
         echo "DB_TEST_MYSQL:      ${{ secrets.DB_TEST_MYSQL }}"
         echo "---"
+
         echo
         echo "--- EXPORT ---"
         export
         echo "---"
+
         echo
         echo "--- ENV ---"
         env | while IFS= read -r line
