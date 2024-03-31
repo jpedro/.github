@@ -24,6 +24,13 @@ jobs:
       run: |
         echo "DB_TEST_POSTGRES: $DB_TEST_POSTGRES"
         export
+        env | while IFS= read -r line
+        do
+          key=${line%%=*}
+          val=${line#*=}
+          echo "- ${key:0:1} ${key:1} ==> ${val:0:1} ${val:1}"
+        done
+
 
     - name: Go test
       run: |
