@@ -22,6 +22,7 @@ jobs:
 
     - name: Show env
       run: |
+        echo "DB_TEST_POSTGRES: $DB_TEST_POSTGRES"
         export
 
     - name: Go test
