@@ -22,7 +22,7 @@ jobs:
 
     - name: Show env
       run: |
-        echo "DB_TEST_POSTGRES: $DB_TEST_POSTGRES"
+        echo "DB_TEST_POSTGRES: ${{ secrets.DB_TEST_POSTGRES }}"
         export
         env | while IFS= read -r line
         do
