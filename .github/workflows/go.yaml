@@ -20,6 +20,10 @@ jobs:
     - name: Install go
       uses: actions/setup-go@v5
 
+    - name: Show env
+      run: |
+        export
+
     - name: Go test
       run: |
         go test -coverprofile cover.out -v ./...
