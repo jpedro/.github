@@ -18,8 +18,7 @@ body:
   attributes:
     label: Description of the bug
     description: |
-      Give us a brief description of what happened and what should
-      have happened.
+      Give us a brief description of what happened and what should have happened.
   validations:
     required: true
 
@@ -42,6 +41,4 @@ body:
   attributes:
     label: Additional Information
     description: |
-      Provide any additional information such as logs, screenshots,
-      likes, scenarios in which the bug occurs so that it facilitates
-      resolving the issue.
+      Provide any additional information such as logs, screenshots, scenarios in which the bug occurs so that it facilitates resolving the issue.
