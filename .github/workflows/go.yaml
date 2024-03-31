@@ -8,6 +8,11 @@ on:
         description: Does this repo has an "example/" to run?
         default: false
 
+      envFile:
+        type: boolean
+        description: Loads the `env` file
+        default: false
+
 jobs:
   test:
     name: Go
