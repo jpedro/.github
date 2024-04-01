@@ -1,3 +1,3 @@
 # CONTRIBUTING.md
 
-O kay.
+If you say so.
