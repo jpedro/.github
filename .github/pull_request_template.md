@@ -10,7 +10,7 @@ number below:
 **Closes**: #123
 
 
-## 📑 Description
+## Description
 Add a brief description of the PR.
 
 
@@ -20,7 +20,7 @@ completed or not by using the markdown to-do list syntax
 - [x] Completed
 
 
-## ✅ Checks
+## Checks
 Make sure your pr passes the CI checks and do check the following
 fields as needed:
 
@@ -30,7 +30,7 @@ fields as needed:
 - [ ] All the tests have passed
 
 
-## ℹ Additional Information
+## Additional Information
 
 Any additional information like breaking changes, dependencies
 added, screenshots, comparisons between new and old behavior, etc.
