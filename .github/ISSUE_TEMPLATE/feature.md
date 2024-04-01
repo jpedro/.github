@@ -1,7 +1,7 @@
 ---
 name: Feature
-about: Ask for a new feature
-title: "Feature: XYZ"
+about: Ask for free stuff
+title: "Feature: ABC"
 labels:
 - feature
 assignees:
@@ -11,17 +11,11 @@ assignees:
 
 Please briefly describe your problem and what output you expect. If
 you have a question, please don't use this form. Instead, ask on
-<https://stackoverflow.com/>, <https://community.rstudio.com/> or
-email Mauro Lepore at <mauro@2degrees-investing.org>.
+<https://stackoverflow.com/>, <https://dev.null/> or
+email /dev/null at <no-reply@dev.null>.
 
-Please include a minimal reproducible example (AKA a reprex). If
-you've never heard of a [reprex](http://reprex.tidyverse.org/) before,
-start by reading <https://www.tidyverse.org/help/#reprex>.
+Please include a minimal reproducible example.
 
 ---
 
-Brief description of the problem
-
-```r
-# insert reprex here
-```
+Brief description of the problem.
