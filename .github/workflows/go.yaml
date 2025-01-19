@@ -28,13 +28,6 @@ jobs:
     - name: Show env
       run: |
         echo
-        echo "--- SECRETS ---"
-        echo "DB_TEST_POSTGRES:   ${{ secrets.DB_TEST_POSTGRES }}"
-        echo "DB_TEST_SQLITE3:    ${{ secrets.DB_TEST_SQLITE3 }}"
-        echo "DB_TEST_MYSQL:      ${{ secrets.DB_TEST_MYSQL }}"
-        echo "---"
-
-        echo
         echo "--- EXPORT ---"
         export
         echo "---"
@@ -58,9 +51,8 @@ jobs:
 
     - name: Go test
       run: |
-        go test -coverprofile cover.out -v ./...
-        go tool cover -func cover.out
-        # go test -v -covermode=count -coverprofile=coverage.out
+        go test -coverprofile coverage.out -v ./...
+        go tool cover -func coverage.out
 
     - name: Go example
       if: inputs.example
