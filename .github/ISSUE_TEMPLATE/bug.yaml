@@ -2,6 +2,7 @@ name: "[Bug] Something bad happened"
 description: "Point it in the doll."
 title: "[Bug] Describe your sad issues"
 labels:
+- wontfix
 - bug
 assignees:
 - "jpedro"
