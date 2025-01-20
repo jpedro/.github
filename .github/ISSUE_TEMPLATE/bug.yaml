@@ -1,6 +1,6 @@
 name: "[Bug] Something bad happened"
-description: "Describe your sad issues here."
-title: "[Bug] Point it in the doll"
+description: "Point it in the doll."
+title: "[Bug] Describe your sad issues"
 labels:
 - bug
 assignees:
