@@ -11,6 +11,11 @@ on:
         type: string
         description: Loads a `env` file
 
+      testPath:
+        type: string
+        description: The package path to be tested
+        default: "./..."
+
 jobs:
   test:
     name: Go
@@ -68,8 +73,8 @@ jobs:
 
     - name: Run install
       run: |
-        echo "==> GOROOT: $GOROOT." 
-        echo "==> GOPATH: $GOPATH." 
+        echo "==> GOROOT: $GOROOT."
+        echo "==> GOPATH: $GOPATH."
         go install -v
         ls -alFh $GOPATH
 
