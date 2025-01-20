@@ -74,11 +74,7 @@ jobs:
 
     - name: Run install
       run: |
-        echo "==> GOROOT: $GOROOT."
-        echo "==> GOPATH: $GOPATH."
-        go install -v
-        ls -alFh $GOPATH
-
-    - name: Show files
-      run: |
-        ls -lsRF
+        echo "==> GOROOT: $(go env GOROOT)."
+        echo "==> GOPATH: $(go env GOPATH)."
+        go install
+        ls -alFh $(go env GOPATH)
