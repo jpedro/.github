@@ -11,5 +11,5 @@ assignees:
 Be assured, your **great ideas** will be _securely stored_
 in `/dev/null`.
 
-If you have a question, ask on <https://dev.null/i/need/this/now>
+If you have a question, ask on <https://dev.null/no-fucks-given>
 or email us at <shit@dev.null>.
