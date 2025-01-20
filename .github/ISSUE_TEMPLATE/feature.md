@@ -8,14 +8,8 @@ assignees:
 - ptdorf
 ---
 
-Please briefly describe your problem and what output you expect.
+Be assured, your **great ideas** will be _securely stored_
+in `/dev/null`.
 
-If you have a question, please don't use this form. Instead,
-ask on <https://dev.null/i/need/this/now> or
-email us at <cool@dev.null>.
-
-Please include a minimal reproducible example.
-
----
-
-Brief description of the problem.
+If you have a question, ask on <https://dev.null/i/need/this/now>
+or email us at <shit@dev.null>.
