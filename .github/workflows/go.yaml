@@ -26,16 +26,16 @@ jobs:
         export
         echo "---"
 
-    - name: Env
+    - name: Parse
       run: |
         echo
         echo "--- Parse the env ---"
         env | while IFS= read -r line
         do
-          key=${line%%=*}
-          val=${line#*=}
+          key="${line%%=*}"
+          val="${line#*=}"
           echo "<<< ${key} ==> ${val}"
-          echo ">>> ${key:0:1} ... ${key:1} ==> ${val:0:1} ${val:1}"
+          echo ">>> [${key:0:1} ... ${key:1}] ==> [${val:0:1} ... ${val:1}]"
           echo
         done
         echo "---"
