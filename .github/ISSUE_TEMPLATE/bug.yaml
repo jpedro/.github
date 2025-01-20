@@ -37,13 +37,11 @@ body:
       2. Enter "zero fucks given".
       3. See the problem in plain day light.
 
-<!--
-- type: textarea
-  id: additional
-  attributes:
-    label: Additional
-    description: |
-      Provide any additional information such as logs, screenshots,
-      scenarios in which the bug occurs so that it facilitates
-      resolving the issue.
--->
+# - type: textarea
+#   id: additional
+#   attributes:
+#     label: Additional
+#     description: |
+#       Provide any additional information such as logs, screenshots,
+#       scenarios in which the bug occurs so that it facilitates
+#       resolving the issue.
