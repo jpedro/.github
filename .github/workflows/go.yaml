@@ -20,11 +20,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Install go
-      uses: actions/setup-go@v5
-      with:
-        go-version: stable
-
     - name: Export
       run: |
         echo "--- Simple export ---"
@@ -50,6 +45,16 @@ jobs:
       run: |
         echo "==> envFile ${{ inputs.envFile }} would be loaded here."
 
+    - name: Install go
+      uses: actions/setup-go@v5
+      with:
+        go-version: stable
+
+    - name: Go lint
+      uses: golangci/golangci-lint-action@v6
+      with:
+        version: v1.60
+
     - name: Go test
       run: |
         go test -coverprofile coverage.out -v ./...
@@ -63,6 +68,8 @@ jobs:
 
     - name: Go install
       run: |
+        echo "==> GOROOT: $GOROOT." 
+        echo "==> GOPATH: $GOPATH." 
         go install -v
         ls -alFh $GOPATH
 
