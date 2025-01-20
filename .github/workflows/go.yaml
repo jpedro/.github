@@ -40,39 +40,39 @@ jobs:
         done
         echo "---"
 
-    - name: Set up env
+    - name: Load envFile
       if: inputs.envFile != ''
       run: |
         echo "==> envFile ${{ inputs.envFile }} would be loaded here."
 
-    - name: Install go
+    - name: Set up go
       uses: actions/setup-go@v5
       with:
         go-version: stable
 
-    - name: Go lint
+    - name: Run lint
       uses: golangci/golangci-lint-action@v6
       with:
         version: v1.60
 
-    - name: Go test
+    - name: Run test
       run: |
-        go test -coverprofile coverage.out -v ./...
-        go tool cover -func coverage.out
+        go test -coverprofile /tmp/coverage.out -v ./...
+        go tool cover -func /tmp/coverage.out
 
-    - name: Go example
+    - name: Run example
       if: inputs.exampleDir != ''
       run: |
         cd ${{ inputs.exampleDir }}
         go run .
 
-    - name: Go install
+    - name: Run install
       run: |
         echo "==> GOROOT: $GOROOT." 
         echo "==> GOPATH: $GOPATH." 
         go install -v
         ls -alFh $GOPATH
 
-    - name: Show local files
+    - name: Show files
       run: |
         ls -lsRF
