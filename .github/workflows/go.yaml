@@ -72,6 +72,11 @@ jobs:
         cd ${{ inputs.exampleDir }}
         go run .
 
+    - name: Run build
+      run: |
+        go build
+        ls -alFh
+
     - name: Run install
       run: |
         echo "==> GOROOT: $(go env GOROOT)."
