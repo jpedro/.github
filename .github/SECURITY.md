@@ -1,3 +1,3 @@
-# SECURITY.md
+# Security
 
 Yes.
