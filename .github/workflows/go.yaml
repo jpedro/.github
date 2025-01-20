@@ -27,23 +27,24 @@ jobs:
 
     - name: Export
       run: |
-        echo "--- Simple export ---"
+        echo "Simple export"
         export
         echo "---"
 
     - name: Parse
       run: |
         echo
-        echo "--- Parse the env ---"
+        echo "Parse the env"
         env | while IFS= read -r line
         do
           key="${line%%=*}"
           val="${line#*=}"
-          echo -e "- \033[32;1m${key}\033[0m=${val}"
-          echo -e "  [${key:0:1} ... ${key:1}] ==> [${val:0:1} ... ${val:1}]"
+          echo -e "\033[32;1m${key}\033[0m=${val}"
+          echo -e "[${key:0:1} ... ${key:1}] ==> [${val:0:1} ... ${val:1}]"
           echo
         done
-        echo "---"
+        echo
+        echo "Done"
 
     - name: Load envFile
       if: inputs.envFile != ''
@@ -62,7 +63,7 @@ jobs:
 
     - name: Run test
       run: |
-        go test -coverprofile /tmp/coverage.out -v ./...
+        go test -coverprofile /tmp/coverage.out -v ${{ inputs.testPath }}
         go tool cover -func /tmp/coverage.out
 
     - name: Run example
