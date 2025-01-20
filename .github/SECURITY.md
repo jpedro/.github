@@ -1,3 +1,3 @@
 # Security
 
-Yes.
+Nothing against it.
