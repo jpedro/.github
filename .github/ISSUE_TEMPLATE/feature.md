@@ -1,7 +1,7 @@
 ---
 name: "[[ Feature ]]"
-about: Ask for free stuff
-title: "Feature: ABC"
+about: "Always ask for free stuff"
+title: "Feature: NFG"
 labels:
 - feature
 assignees:
