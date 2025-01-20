@@ -1,6 +1,6 @@
 ---
-name: "Feature"
-about: "Always ask for free stuff."
+name: "[Feature] Always ask for free stuff"
+about: "Describe your sad issues here."
 title: "[Feature] Billion dollar idea"
 labels:
 - feature
