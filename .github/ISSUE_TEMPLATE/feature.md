@@ -1,6 +1,6 @@
 ---
 name: "[Feature] Always ask for free stuff"
-about: "Describe your sad issues here."
+about: "Modern solutions require modern problems."
 title: "[Feature] Billion dollar idea"
 labels:
 - feature
