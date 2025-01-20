@@ -33,9 +33,9 @@ body:
     description: |
       Steps to reproduce the behavior.
     placeholder: |
-      1. Go to [site](google.com).
-      2. Enter `zero fucks given`.
-      3. See error.
+      1. Go to google.com.
+      2. Enter "zero fucks given".
+      3. See the problem in plain day light.
 
 - type: textarea
   id: additional
