@@ -1,6 +1,6 @@
-name: "[[ Bug ]]"
+name: "Bug"
 description: "Modern solutions require modern problems."
-title: "[[ Bug ]]: Bugs a bunny"
+title: "[Bug] Bugs a bunny"
 labels:
 - bug
 assignees:
