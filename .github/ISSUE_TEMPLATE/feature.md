@@ -12,7 +12,7 @@ Please briefly describe your problem and what output you expect.
 
 If you have a question, please don't use this form. Instead,
 ask on <https://stackoverflow.com>, <https://dev.null> or
-email /dev/null at <features@/dev/null>.
+email `/dev/null` at <features@dev.null>.
 
 Please include a minimal reproducible example.
 
