@@ -3,15 +3,13 @@ name: Go
 on:
   workflow_call:
     inputs:
-      example:
-        type: boolean
-        description: Does this repo has an "example/" to run?
-        default: false
+      exampleDir:
+        type: string
+        description: Does this repo has an "example" to run? If so where?
 
       envFile:
-        type: boolean
-        description: Loads the `env` file
-        default: false
+        type: string
+        description: Loads a `env` file
 
 jobs:
   test:
@@ -45,7 +43,7 @@ jobs:
         echo "---"
 
     - name: Set up env
-      if: inputs.envFile
+      if: inputs.envFile != ''
       run: |
         echo "envFile was set"
 
@@ -55,15 +53,15 @@ jobs:
         go tool cover -func coverage.out
 
     - name: Go example
-      if: inputs.example
+      if: inputs.exampleDir != ''
       run: |
-        cd example
+        cd ${{ inputs.exampleDir }}
         go run .
 
     - name: Go install
       run: |
         go install
-        ls -la $GOPATH
+        ls -alFh $GOPATH
 
     - name: Show local files
       run: |
