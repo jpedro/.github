@@ -34,8 +34,8 @@ jobs:
         do
           key="${line%%=*}"
           val="${line#*=}"
-          echo "<<< ${key} ==> ${val}"
-          echo ">>> [${key:0:1} ... ${key:1}] ==> [${val:0:1} ... ${val:1}]"
+          echo "- \033[32;1m${key}\033[0m=${val}"
+          echo "  [${key:0:1} ... ${key:1}] ==> [${val:0:1} ... ${val:1}]"
           echo
         done
         echo "---"
