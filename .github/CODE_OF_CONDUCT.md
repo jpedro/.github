@@ -1,9 +1,16 @@
+# Code of Conduct
+
+What the fuck is even this?
+
+
+<!-- PREVIOUS -->
 <!--
 # Code of Conduct
 
 Please refer to the Chef Community Code of Conduct at https://www.chef.io/code-of-conduct.
 -->
 
+<!--
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -136,3 +143,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+-->
