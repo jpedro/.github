@@ -10,35 +10,38 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to fill out this bug report.
-      Make sure there aren't any open/closed issues for this topic.
+      Thanks for taking _your_ time to fill out this **bug report**.
+
+      It will be safely stored in `/dev/null`.
 
 - type: textarea
   id: description
-  attributes:
-    label: Description of the bug
-    description: |
-      Give us a brief description of what happened and what should have happened.
   validations:
     required: true
+  attributes:
+    label: Description
+    description: |
+      Give us a brief description of what happened and what
+      should have happened.
 
 - type: textarea
   id: steps
+  validations:
+    required: true
   attributes:
-    label: Steps To Reproduce
+    label: Steps
     description: |
       Steps to reproduce the behavior.
     placeholder: |
-      1. Go to '...'
-      2. Click on '...'
-      3. Scroll down to '...'
-      4. See error
-  validations:
-    required: true
+      1. Go to [site](google.com).
+      2. Enter `zero fucks given`.
+      3. See error.
 
 - type: textarea
   id: additional
   attributes:
-    label: Additional Information
+    label: Additional
     description: |
-      Provide any additional information such as logs, screenshots, scenarios in which the bug occurs so that it facilitates resolving the issue.
+      Provide any additional information such as logs, screenshots,
+      scenarios in which the bug occurs so that it facilitates
+      resolving the issue.
