@@ -4,7 +4,7 @@ title: "[[ Bug ]]: Bugs a bunny"
 labels:
 - bug
 assignees:
-- jpedro
+- @jpedro
 
 body:
 - type: markdown
