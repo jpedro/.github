@@ -1,4 +1,4 @@
-# Code of Conduct
+# Code of conduct
 
 What the fuck is even this?
 
