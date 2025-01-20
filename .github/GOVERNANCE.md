@@ -1,3 +1,3 @@
-# GOVERNANCE.md
+# Governance
 
-Whaaaa?!
+What up guv'nah?
