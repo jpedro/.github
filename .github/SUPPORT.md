@@ -1,3 +1,3 @@
-# SUPPORT.md
+# Support
 
 This too!
