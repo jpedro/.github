@@ -1,6 +1,6 @@
 # Code of conduct
 
-What the fuck is even this?
+If you need this, you have people issues.
 
 
 <!-- PREVIOUS -->
