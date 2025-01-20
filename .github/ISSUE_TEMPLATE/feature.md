@@ -1,5 +1,5 @@
 ---
-name: Feature
+name: "[Feature]"
 about: Ask for free stuff
 title: "Feature: ABC"
 labels:
