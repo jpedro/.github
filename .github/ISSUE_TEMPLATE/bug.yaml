@@ -13,8 +13,6 @@ body:
     value: |
       Thanks for taking _your_ time to fill out this **bug report**.
 
-      It will be safely stored in `/dev/null`.
-
 - type: textarea
   id: description
   validations:
