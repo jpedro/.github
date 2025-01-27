@@ -1,6 +1,6 @@
-name: "[Bug] Something bad happened"
+name: "[Bug] Something terrible happened"
 description: "Point it in the doll."
-title: "[Bug] Describe your sad issues"
+title: "[Bug] Describe your sad sob story"
 labels:
 - wontfix
 - bug
