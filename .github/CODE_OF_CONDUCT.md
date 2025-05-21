@@ -1,6 +1,10 @@
 # Code of conduct
 
-If you need this, you have people issues.
+<!-- If you need this, you have people issues. -->
+
+It's all good, man.
+
+![It's Saul Goodman](https://github.com/jpedro/.github/blob/main/.github/static/img/saul.jpg?raw=true)
 
 
 <!-- PREVIOUS -->
