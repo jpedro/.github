@@ -1,3 +1,3 @@
 # Security
 
-Nothing against it.
+Nothing against it 🥸
