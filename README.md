@@ -1,10 +1,6 @@
 # .github
 
-<!--
-Shared GitHub resources. How the `.github` repo works:
+Welcome to the John Cena of READMEs.
 
-https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/
--->
-
-_**Interesting**_.... this `README.md` doesn't see the light
+_**Interesting**_.... this `README.md` never sees the light
 of day in https://github.com/jpedro/.github
