@@ -1,4 +1,4 @@
-# Default README.md
+# Oh, hi!
 
 How the `.github` repo works:
 
