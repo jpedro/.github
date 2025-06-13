@@ -1,4 +1,4 @@
-# Oh, hi!
+# Hello there!
 
 This is not the `README.md` you were looking for ;-)
 
