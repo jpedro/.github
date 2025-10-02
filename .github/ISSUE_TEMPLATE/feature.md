@@ -1,7 +1,7 @@
 ---
-name: "[Feature] Always good to ask for free stuff"
+name: "[Feature] Ask for free stuff"
+title: "[Feature] My billion dollar idea"
 about: "Modern solutions require modern problems."
-title: "[Feature] Billion dollar idea"
 labels:
 - mine
 - ideas
