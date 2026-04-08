@@ -1,3 +1,3 @@
 # CONTRIBUTING.md
 
-If you say so.
+Nothing against it 🥸
