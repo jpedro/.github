@@ -1,4 +1,4 @@
-# CODE_OF_CONDUCT.md
+# Morals and Dogma
 
 > [!NOTE]
 > If you need this, you have people issues.
