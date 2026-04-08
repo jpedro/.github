@@ -1,3 +1,3 @@
-# CONTRIBUTING.md
+# ConTributing
 
 Nothing against it 🥸
