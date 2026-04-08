@@ -1,4 +1,4 @@
-# Code of conduct
+# CODE_OF_CONDUCT.md
 
 > [!NOTE]
 > If you need this, you have people issues.
