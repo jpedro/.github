@@ -10,6 +10,6 @@ But in fact you are reading
 
 ## Why?
 
-How the `.github` repo works:
+How this repo, `.github`, works:
 
 https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/
