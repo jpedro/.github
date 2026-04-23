@@ -2,10 +2,10 @@
 
 This is not the `README.md` you were looking for.
 
-You think you are reading [`README.md`](../README.md).
+You think you are reading [`USER/.github/README.md`](../README.md).
 
 But in fact you are reading
-[`.github/README.md`](README.md). Go figure.
+[`USER/.github/.github/README.md`](README.md). Go figure.
 
 
 ## Why?
