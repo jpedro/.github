@@ -1,3 +1,3 @@
 # Security
 
-If you say so.
+Nothing against it 🥸
