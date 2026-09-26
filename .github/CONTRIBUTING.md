@@ -1,3 +1,3 @@
 # Con Tributing
 
-Nothing against it 🥸
+If you say so.
