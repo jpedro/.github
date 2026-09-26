@@ -1,9 +1,9 @@
 # Morals and Dogma
 
-> [!NOTE]
+> [!WARNING]
 > If you need this, you have people issues.
 
-It's all good, man.
+So... it's all good, man.
 
 ![It's Saul Goodman](https://github.com/jpedro/.github/blob/main/.github/static/img/saul.jpg?raw=true)
 
