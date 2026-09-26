@@ -1,3 +1,3 @@
-# ConTributing
+# Con Tributing
 
 Nothing against it 🥸
